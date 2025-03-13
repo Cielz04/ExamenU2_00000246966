@@ -1,67 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/white">
+
 
     <ImageView
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo" />
+        android:id="@+id/iv_logo"
+        android:layout_width="369dp"
+        android:layout_height="388dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/happybox" />
 
     <Button
         android:id="@+id/btn_visitar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Visitar"
-        android:backgroundTint="#E35B6F" />
+        android:text="@string/btn_visitar"
+        android:backgroundTint="#E35B6F"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="16dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Happy Box"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ameloras, estalles y globos"
-        android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/btn_detalles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Detalles"
-        android:backgroundTint="#E35B6F" />
-
-    <Button
-        android:id="@+id/btn_globos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Globos"
-        android:backgroundTint="#E35B6F" />
-
-    <Button
-        android:id="@+id/btn_peluches"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Peluches"
-        android:backgroundTint="#E35B6F" />
-
-    <Button
-        android:id="@+id/btn_regalos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Regalos"
-        android:backgroundTint="#E35B6F" />
-
-    <Button
-        android:id="@+id/btn_tazas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tazas"
-        android:backgroundTint="#E35B6F" />
 </LinearLayout>

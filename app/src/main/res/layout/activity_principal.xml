@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="323dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/grupo2" />
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles"
+        android:backgroundTint="#E35B6F"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Globos"
+        android:backgroundTint="#E35B6F"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peluches"
+        android:backgroundTint="#E35B6F"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regalos"
+        android:backgroundTint="#E35B6F"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_tazas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tazas"
+        android:backgroundTint="#E35B6F"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="40dp" />
+
+</LinearLayout>
