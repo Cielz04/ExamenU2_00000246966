@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_visitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visitar"
+        android:backgroundTint="#E35B6F" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Box"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ameloras, estalles y globos"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalles"
+        android:backgroundTint="#E35B6F" />
+
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Globos"
+        android:backgroundTint="#E35B6F" />
+
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peluches"
+        android:backgroundTint="#E35B6F" />
+
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regalos"
+        android:backgroundTint="#E35B6F" />
+
+    <Button
+        android:id="@+id/btn_tazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tazas"
+        android:backgroundTint="#E35B6F" />
+</LinearLayout>
