@@ -9,16 +9,17 @@
     tools:context=".Regalos">
 
     <TextView
+        android:id="@+id/idTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detalles"
-        android:fontFamily="sans-serif-light"
-        android:textAllCaps="true"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        android:textColor="@color/principal"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Detalles"
+        android:textAllCaps="true"
+        android:textColor="@color/principal"
+        android:textSize="35sp"
+        android:textStyle="bold" />
 
     <View
         android:layout_width="match_parent"

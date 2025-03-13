@@ -30,7 +30,11 @@ class Regalos : AppCompatActivity() {
             Log.d("Regalos", "Tipo de producto recibido: $option")
         }
 
-        addProducts(option)
+        var titulo: String? = intent.getStringExtra("type")
+        val idTitulo: TextView = findViewById(R.id.idTitulo)
+        idTitulo.setText(titulo)
+
+        agregarProductos(option)
 
         adapter = AdaptadorProductos(this, lista)
 
@@ -44,11 +48,12 @@ class Regalos : AppCompatActivity() {
             intent.putExtra("imagen", productoSeleccionado.image)
             intent.putExtra("precio", productoSeleccionado.precio)
 
+
             startActivity(intent)
         }
     }
 
-    fun addProducts(option: String?) {
+    fun agregarProductos(option: String?) {
         when (option) {
             "Detalles" -> {
                 lista.add(Detalles(R.drawable.cumplebotanas, "$280"))
