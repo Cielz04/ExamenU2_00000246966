@@ -43,6 +43,7 @@ class Regalos : AppCompatActivity() {
             val intent = Intent(this, DetalleRegalos::class.java)
             intent.putExtra("imagen", productoSeleccionado.image)
             intent.putExtra("precio", productoSeleccionado.precio)
+
             startActivity(intent)
         }
     }

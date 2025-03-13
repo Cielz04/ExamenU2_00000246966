@@ -27,35 +27,35 @@ class Principal : AppCompatActivity() {
         val btnDetalles: Button = findViewById(R.id.btn_detalles)
         btnDetalles.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
-            intent.putExtra("type", "Detalles") // Pasa el tipo de producto
+            intent.putExtra("type", "Detalles")
             startActivity(intent)
         }
 
         val btnGlobos: Button = findViewById(R.id.btn_globos)
         btnGlobos.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
-            intent.putExtra("type", "Globos") // Pasa el tipo de producto
+            intent.putExtra("type", "Globos")
             startActivity(intent)
         }
 
         val btnPeluches: Button = findViewById(R.id.btn_peluches)
         btnPeluches.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
-            intent.putExtra("type", "Peluches") // Pasa el tipo de producto
+            intent.putExtra("type", "Peluches")
             startActivity(intent)
         }
 
         val btnRegalos: Button = findViewById(R.id.btn_regalos)
         btnRegalos.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
-            intent.putExtra("type", "Regalos") // Pasa el tipo de producto
+            intent.putExtra("type", "Regalos")
             startActivity(intent)
         }
 
         val btnTazas: Button = findViewById(R.id.btn_tazas)
         btnTazas.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
-            intent.putExtra("type", "Tazas") // Pasa el tipo de producto
+            intent.putExtra("type", "Tazas")
             startActivity(intent)
         }
     }

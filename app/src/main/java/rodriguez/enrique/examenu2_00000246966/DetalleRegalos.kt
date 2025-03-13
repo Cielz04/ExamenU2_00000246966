@@ -1,12 +1,10 @@
 package rodriguez.enrique.examenu2_00000246966
 
 import android.os.Bundle
+import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class DetalleRegalos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,13 +14,14 @@ class DetalleRegalos : AppCompatActivity() {
         val iv_image: ImageView = findViewById(R.id.iv_regalo_imagen)
         val tv_precio: TextView = findViewById(R.id.tv_regalo_precio)
 
-        val bundle = intent.extras
+        val imagen = intent.getIntExtra("imagen", 0)
+        val precio = intent.getStringExtra("precio")
 
-        if(bundle !=null){
-            iv_image.setImageResource(bundle.getInt("image"))
-            tv_precio.setText(bundle.getString("precio"))
-
+        if (imagen != 0) {
+            iv_image.setImageResource(imagen)
+        } else {
+            Log.e("DetalleRegalos", "Error: No se recibió una imagen válida")
         }
-
+        tv_precio.text = precio
     }
 }
