@@ -24,7 +24,6 @@ class Principal : AppCompatActivity() {
     }
 
     private fun setupButtons() {
-        // Botón "Detalles"
         val btnDetalles: Button = findViewById(R.id.btn_detalles)
         btnDetalles.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
@@ -32,7 +31,6 @@ class Principal : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Botón "Globos"
         val btnGlobos: Button = findViewById(R.id.btn_globos)
         btnGlobos.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
@@ -40,7 +38,6 @@ class Principal : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Botón "Peluches"
         val btnPeluches: Button = findViewById(R.id.btn_peluches)
         btnPeluches.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
@@ -48,7 +45,6 @@ class Principal : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Botón "Regalos"
         val btnRegalos: Button = findViewById(R.id.btn_regalos)
         btnRegalos.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
@@ -56,7 +52,6 @@ class Principal : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Botón "Tazas"
         val btnTazas: Button = findViewById(R.id.btn_tazas)
         btnTazas.setOnClickListener {
             val intent = Intent(this, Regalos::class.java)
